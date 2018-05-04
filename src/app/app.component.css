@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+header {
+  height: 60px;
+  background-color: #80cbc4;
+  text-align: center;
+  font-family: 'Titan One', cursive;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+header p {
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.tabs {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tab {
+  display: inline-block;
+  margin: 20px;
+  background-color:
+}
+
+.content {
+  margin: 20px;
+}
