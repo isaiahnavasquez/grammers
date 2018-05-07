@@ -3,11 +3,8 @@
 </header>
 
 <div class="tabs">
-  <a href="#" class="tab">Profiles</a>
-  <a href="#" class="tab">Albums</a>
-  <a href="#" class="tab">Users</a>
+  <a routerLink="/profiles" class="tab">Profiles</a>
+  <a routerLink="/albums" class="tab">Albums</a>
 </div>
 
-<div class="content">
-  <app-albums></app-albums>
-</div>
+<router-outlet></router-outlet>
