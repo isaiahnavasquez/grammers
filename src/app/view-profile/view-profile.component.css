@@ -1,0 +1,20 @@
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #94af76;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details {
+  text-align: center;
+}

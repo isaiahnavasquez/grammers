@@ -10,12 +10,20 @@ import { Album } from '../data-classes'
 export class AlbumsComponent implements OnInit {
 
   albums: Album[] = []
+  names: string = ''
 
   constructor(
     private albumsService: AlbumsService
   ) { }
 
   ngOnInit() {
+    this.getAlbums()
+  }
+
+  getAlbums() {
+    this.albumsService.getAlbums().subscribe(data => {
+      this.albums = data.slice(0,6)
+    })
   }
 
 }

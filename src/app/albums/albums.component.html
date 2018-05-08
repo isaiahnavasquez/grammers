@@ -1,1 +1,5 @@
-<p>THis is Album</p>
+<div class="container">
+  <div class="item" *ngFor="let album of albums">
+    <p>{{ album.title }}</p>
+  </div>
+</div>

@@ -6,14 +6,23 @@ import { AppRoutingModule } from './/app-routing.module';
 // Components
 import { AppComponent } from './app.component';
 import { AlbumsComponent } from './albums/albums.component';
+import { ProfilesComponent } from './profiles/profiles.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { ImagesComponent } from './images/images.component'
 
 // Services
 import { AlbumsService } from './albums.service';
+import { UsersService } from './users.service';
+import { ImagesService } from './images.service';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumsComponent
+    AlbumsComponent,
+    ProfilesComponent,
+    ViewProfileComponent,
+    ImagesComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +31,8 @@ import { AlbumsService } from './albums.service';
   ],
   providers: [
     AlbumsService,
+    UsersService,
+    ImagesService,
   ],
   bootstrap: [AppComponent]
 })

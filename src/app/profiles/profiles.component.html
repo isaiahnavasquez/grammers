@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="item" *ngFor="let user of users">
+    <div class="circle"></div>
+    <br>
+    <a routerLink="/profiles/{{ user.id }}">{{ user.name }}</a>
+  </div>
+</div>
